@@ -4,6 +4,10 @@
   height: 65px;
 }
 
+.navbar-dark .navbar-nav .active {
+  color: #ffffff !important;
+}
+
 /* 头部导航 */
 
 /* 底部导航*/
@@ -37,3 +41,9 @@
 }
 
 /* 底部导航*/
+
+/* 内容区域 */
+
+.content-area {
+  height: 800px;
+}
