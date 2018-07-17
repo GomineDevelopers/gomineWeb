@@ -45,5 +45,5 @@
 /* 内容区域 */
 
 .content-area {
-    height: 800px;
+    min-height: 800px;
 }
