@@ -49,3 +49,8 @@
 .content-area {
     min-height: 800px;
 }
+
+.next_icon img{
+    width: 46px;
+    height: 46px;
+}
