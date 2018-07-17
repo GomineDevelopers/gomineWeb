@@ -2,6 +2,7 @@
 
 .nav-top {
     height: 65px;
+    background: #000000;
 }
 
 .navbar-dark .navbar-nav .active {
@@ -16,6 +17,7 @@
     height: 265px;
     font-size: 16px;
     color: white;
+    background: #000000;
 }
 
 .nav-bottom tr {
