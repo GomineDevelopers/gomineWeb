@@ -1,0 +1,49 @@
+/* 头部导航 */
+
+.nav-top {
+    height: 65px;
+}
+
+.navbar-dark .navbar-nav .active {
+    color: #ffffff !important;
+}
+
+/* 头部导航 */
+
+/* 底部导航*/
+
+.nav-bottom {
+    height: 265px;
+    font-size: 16px;
+    color: white;
+}
+
+.nav-bottom tr {
+    margin: 10px;
+    padding: 5px;
+}
+
+.nav-bottom tr td {
+    padding: 5px
+}
+
+.nav-bottom .bottom-input {
+    color: white;
+    background-color: #000000;
+}
+
+.nav-bottom .input-group-append .input-group-text {
+    background-color: #3E4C5A;
+}
+
+.nav-bottom .input-group-append .input-group-text i {
+    color: white;
+}
+
+/* 底部导航*/
+
+/* 内容区域 */
+
+.content-area {
+    height: 800px;
+}
