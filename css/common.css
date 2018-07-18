@@ -47,7 +47,8 @@
 /* 内容区域 */
 
 .content-area {
-    min-height: 800px;
+    min-height: 682px;
+    overflow-x: hidden;
 }
 
 .next_icon img{

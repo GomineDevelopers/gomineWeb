@@ -55,7 +55,7 @@ body{
     background-color: #FFFFFF;
     width: 1120px;
     height: 500px;
-    margin: 68px 0;
+    margin: 40px 0;
 }
 
 .about_img{
@@ -75,4 +75,10 @@ body{
 .about_bottom_text3{
     font-size: 14px;
     margin: 0 0 78px 61px;
+}
+
+hr{
+    height: 2px;
+    width: 50px;
+    background-color: #333333;
 }
