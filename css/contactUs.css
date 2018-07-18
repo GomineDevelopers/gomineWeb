@@ -54,8 +54,12 @@ body {
   cursor: pointer;
 }
 
+.bg-gy:hover {
+  cursor: pointer;
+}
+
 .bg-bj-active,
-.bg-gy-active,
+.bg-jh-active,
 .bg-gy-active:hover {
   cursor: pointer;
 }

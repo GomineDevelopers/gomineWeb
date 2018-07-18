@@ -3,7 +3,7 @@ $(document).ready(function () {
   /*初始化*/
   var map = new BMap.Map("container"); // 创建地图实例
   var point = new BMap.Point(116.499868, 39.921244); // 创建中心点坐标
-  map.centerAndZoom(point, 18); // 初始化地图，设置中心点坐标和地图级别
+  map.centerAndZoom(point, 17); // 初始化地图，设置中心点坐标和地图级别
   map.disableScrollWheelZoom(); //开启鼠标滚轮缩放
   map.disableDragging();
   /*添加控件*/
