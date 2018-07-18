@@ -1,12 +1,9 @@
 // //创建和初始化地图函数：
 $(document).ready(function () {
   /*初始化*/
-  var map = new BMap.Map("container", {
-    minZoom: 20,
-    maxZoom: 20
-  }); // 创建地图实例
+  var map = new BMap.Map("container"); // 创建地图实例
   var point = new BMap.Point(116.499868, 39.921244); // 创建中心点坐标
-  map.centerAndZoom(point, 20); // 初始化地图，设置中心点坐标和地图级别
+  map.centerAndZoom(point, 18); // 初始化地图，设置中心点坐标和地图级别
   map.disableScrollWheelZoom(); //开启鼠标滚轮缩放
   map.disableDragging();
   /*添加控件*/
@@ -54,9 +51,8 @@ $(document).ready(function () {
       $('#bg-gy').removeClass('bg-gy-active')
     }
   });
-
   $('#bg-gy').click(function () {
-    var pointGy = new BMap.Point(106.652481, 26.627495);
+    var pointGy = new BMap.Point(106.652663, 26.627516);
     var cententGy = "贵阳市 观山湖区 贵阳国家高新技术产业开发区（毕节路）";
     var titleGy = "GOMINE-贵阳分部"
     setAddressAndWindow(pointGy, cententGy, titleGy);
