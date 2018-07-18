@@ -9,13 +9,12 @@ $(document).ready(function () {
   map.centerAndZoom(point, 20); // 初始化地图，设置中心点坐标和地图级别
   map.disableScrollWheelZoom(); //开启鼠标滚轮缩放
   map.disableDragging();
-  var myGeo = new BMap.Geocoder(); // 创建地址解析器实例  
   /*添加控件*/
   map.addControl(new BMap.ScaleControl()); //比例尺
   // 地理位置信息切换
   var pointDef = new BMap.Point(116.499868, 39.921244);
-  var cententDef = "北京市 朝阳区 住邦2000商务楼1号楼B702-703"
-  var titleDef = "GOMINE-北京总部"
+  var cententDef = "北京市 朝阳区 住邦2000商务楼1号楼B702-703";
+  var titleDef = "GOMINE-北京总部";
   setAddressAndWindow(pointDef, cententDef, titleDef);
 
   function setAddressAndWindow(point, content, Localtitle) {
