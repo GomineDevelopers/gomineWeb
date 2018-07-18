@@ -1,4 +1,3 @@
-
 .containerCards{
     margin-top: 65px;
     width: 100%;
@@ -20,10 +19,12 @@
 
 .content-area{
     display: flex;
+    display: -ms-flexbox;
     align-items: center;
 }
 
 .cardDiv{
     display: flex;
+    display: -ms-flexbox;
     justify-content: center;
 }

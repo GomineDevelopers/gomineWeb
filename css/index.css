@@ -55,7 +55,7 @@
   height: inherit;
   position: relative;
   display: flex;
-  display: -ms-flex;
+  display: -ms-flexbox;
   justify-content: center;
   align-items: center;
 }
