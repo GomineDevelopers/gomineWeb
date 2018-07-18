@@ -1,4 +1,4 @@
-.bg-img1{
+.bg-img1 {
   background-image: url("../images/bg1.jpg");
   background-position: center center;
   background-repeat: no-repeat;
@@ -8,8 +8,8 @@
   margin-top: 65px;
 }
 
-.subtitlebg1{
-  background-color: rgba(0,0,0,0.4);
+.subtitlebg1 {
+  background-color: rgba(0, 0, 0, 0.4);
   color: #FFFFFF;
   height: inherit;
   display: flex;
@@ -17,31 +17,31 @@
   align-items: center;
 }
 
-.subtitleDiv1{
+.subtitleDiv1 {
   max-width: 800px;
   text-align: center;
 }
 
-.subtitleDiv1 h2{
+.subtitleDiv1 h2 {
   font-size: 90px;
   font-weight: bold;
 }
 
-.subtitleDiv1 p{
+.subtitleDiv1 p {
   font-size: 40px;
   font-weight: 300;
   color: #FFFFFF;
 }
 
-.h2_color1{
+.h2_color1 {
   color: #FFFFFF;
 }
 
-.h2_color2{
+.h2_color2 {
   color: #FFC000;
 }
 
-.bg-img2{
+.bg-img2 {
   background-image: url("../images/bg2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -50,7 +50,7 @@
   height: 95vh;
 }
 
-.subtitlebg2{
+.subtitlebg2 {
   color: #FFFFFF;
   height: inherit;
   position: relative;
@@ -60,18 +60,17 @@
   align-items: center;
 }
 
-.subtitleDiv2{
+.subtitleDiv2 {
   min-width: 1020px;
   text-align: left;
   margin-bottom: 60px;
 }
 
-.h3_color1{
+.h3_color1 {
   font-size: 55px;
 }
 
-
-.subtitlebg2_bottom{
+.subtitlebg2_bottom {
   background-color: rgba(255, 192, 0, 0.8);
   z-index: 999;
   width: 100%;
@@ -81,43 +80,47 @@
   bottom: 0;
 }
 
-.subtitlebg2_bottomDiv{
+.subtitlebg2_bottomDiv {
   min-width: 1020px;
   text-align: center;
   padding: 30px 0;
 }
 
-.h3_color2{
+.h3_color2 {
   font-size: 40px;
 }
 
-.bg-img3{
+.bg-img3 {
   background-image: url("../images/bg3.jpg");
   background-position: bottom right;
   background-repeat: no-repeat;
   background-size: cover;
-  height:70vh;
+  height: 70vh;
 }
 
-.subtitlebg3{
+.subtitlebg3 {
   color: #FFFFFF;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   height: inherit;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.subtitleDiv3{
+.subtitleDiv3 {
   max-width: 1020px;
   text-align: left;
 }
 
-.subtitleDiv3_con{
+.subtitleDiv3_con {
   font-size: 28px;
   line-height: 38px;
 }
 
-.subtitleDiv3_con span{
+.subtitleDiv3_con span {
   color: #FFC000;
+}
+
+.nav-bottom-wrapper a {
+  color: white;
 }

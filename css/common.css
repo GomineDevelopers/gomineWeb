@@ -59,6 +59,10 @@
     overflow-x: hidden;
 }
 
+.nav-bottom-wrapper a {
+    color: white;
+}
+
 .next_icon img {
     width: 46px;
     height: 46px;
