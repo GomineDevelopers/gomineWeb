@@ -38,6 +38,14 @@
     background-color: #3E4C5A;
 }
 
+.nav-bottom .input-group-append .input-group-text:hover {
+    cursor: pointer;
+}
+
+.nav-bottom .input-group-append .input-group-text:active {
+    background-color: red;
+}
+
 .nav-bottom .input-group-append .input-group-text i {
     color: white;
 }
@@ -51,7 +59,8 @@
     overflow-x: hidden;
 }
 
-.next_icon img{
+.next_icon img {
     width: 46px;
     height: 46px;
+    cursor: pointer;
 }

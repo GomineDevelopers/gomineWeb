@@ -1,18 +1,5 @@
-.iw_poi_title {
-  color: #CC5522;
-  font-size: 14px;
-  font-weight: bold;
-  overflow: hidden;
-  padding-right: 13px;
-  white-space: nowrap
-}
-
-.iw_poi_content {
-  font: 12px arial, sans-serif;
-  overflow: visible;
-  padding-top: 4px;
-  white-space: -moz-pre-wrap;
-  word-wrap: break-word
+body {
+  background-color: #F0F3F5;
 }
 
 .map-wrapper {
@@ -73,34 +60,34 @@
   cursor: pointer;
 }
 
-.bg-bj .card-body {
+.bg-bj .card {
   background-image: url('../images/location-bg-bj.png');
   background-size: 100% 100%;
 }
 
-.bg-bj-active .card-body {
+.bg-bj-active .card {
   background-image: url('../images/location-bg-bj-active.png');
   background-size: 100% 100%;
   color: white;
 }
 
-.bg-jh .card-body {
+.bg-jh .card {
   background-image: url('../images/location-bg-jh.png');
   background-size: 100% 100%;
 }
 
-.bg-jh-active .card-body {
+.bg-jh-active .card {
   background-image: url('../images/location-bg-jh-active.png');
   background-size: 100% 100%;
   color: white;
 }
 
-.bg-gy .card-body {
+.bg-gy .card {
   background-image: url('../images/location-bg-gy.png');
   background-size: 100% 100%;
 }
 
-.bg-gy-active .card-body {
+.bg-gy-active .card {
   background-image: url('../images/location-bg-gy-active.png');
   background-size: 100% 100%;
   color: white;
