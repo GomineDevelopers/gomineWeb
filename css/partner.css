@@ -17,7 +17,8 @@
     margin: 30px 0;
 }
 
-.content-area{
+.content-areaHeight{
+    height: 682px;
     display: flex;
     display: -ms-flexbox;
     align-items: center;
