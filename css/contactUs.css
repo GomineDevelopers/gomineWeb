@@ -20,16 +20,19 @@
   background-color: #F0F3F5;
 }
 
-.contact-title h3 {
-  color: #333333;
-  padding-top: 20px;
+.contact-title .text-center {
+  width: 124px;
+  height: 29px;
+  font-size: 30px;
+  font-family: NotoSansHans-Bold;
+  color: rgba(51, 51, 51, 1);
+  line-height: 60px;
 }
 
 .contact-title hr {
-  font-size: 18px;
-  height: 4px;
-  width: 60px;
-  background-color: #333333;
+  width: 50px;
+  height: 2px;
+  background: rgba(51, 51, 51, 1);
 }
 
 #container {
