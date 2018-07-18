@@ -52,9 +52,9 @@ $(document).ready(function () {
     }
   });
   $('#bg-gy').click(function () {
-    var pointGy = new BMap.Point(106.652663, 26.627516);
+    var pointGy = new BMap.Point(106.654423, 26.627048);
     var cententGy = "贵阳市 观山湖区 贵阳国家高新技术产业开发区（毕节路）";
-    var titleGy = "GOMINE-贵阳分部"
+    var titleGy = "GOMINE-贵阳分部";
     setAddressAndWindow(pointGy, cententGy, titleGy);
     var flag = $(this);
     if (flag.hasClass('bg-gy-active')) {} else {
