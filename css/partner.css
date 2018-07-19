@@ -1,3 +1,9 @@
+.content-area{
+    overflow-y: auto;
+    overflow-x: hidden;
+    min-height: 682px;
+}
+
 .containerCards{
     width: 100%;
 }
@@ -24,6 +30,9 @@
 
 .titleDiv{
     margin-top: 85px;
+    position: absolute;
+    left: 50%;
+    margin-left: -60px;
 }
 
 .partner_title{
