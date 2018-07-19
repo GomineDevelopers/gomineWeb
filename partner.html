@@ -226,15 +226,16 @@
     <script src="./oldVerson/js/rgen.js"></script>
 
     <script>
-        $(function(){
-            if($(window).height()<827){
+        $(function () {
+            if ($(window).height() < 827) {
                 $(".containerCards").css({
                     'margin-top': 170
                 });
-            }else{
+            } else {
                 $(".containerCards").css({
-                    'margin-top': ($(window).height()-65-265-$('.divH').height())/2+65
+                    'margin-top': ($(window).height() - 65 - 265 - $('.divH').height()) / 2 + 65
                 });
+                $(".nav-bottom").addClass("fixed-bottom");
             }
         });
     </script>
