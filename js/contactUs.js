@@ -43,7 +43,7 @@ $(document).ready(function () {
   $('#bg-jh').click(function () {
     var pointJh = new BMap.Point(119.671047, 29.137416);
     var cententBj = "金华市 婺城区 金华电子商务创业园502-503";
-    var titleJh = "GOMINE-金华分部"
+    var titleJh = "GOMINE-浙江"
     setAddressAndWindow(pointJh, cententBj, titleJh);
     var flag = $(this);
     if (flag.hasClass('bg-jh-active')) {} else {
@@ -56,7 +56,7 @@ $(document).ready(function () {
   $('#bg-gy').click(function () {
     var pointGy = new BMap.Point(106.654423, 26.627048);
     var cententGy = "贵阳市 观山湖区 贵阳国家高新技术产业开发区（毕节路）";
-    var titleGy = "GOMINE-贵阳分部";
+    var titleGy = "GOMINE-贵州";
     setAddressAndWindow(pointGy, cententGy, titleGy);
     var flag = $(this);
     if (flag.hasClass('bg-gy-active')) {} else {
