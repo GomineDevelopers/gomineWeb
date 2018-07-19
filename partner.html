@@ -145,7 +145,7 @@
     <!-- 内容区域 -->
     <!-- 底部导航 -->
     <div class="nav-bottom-wrapper">
-        <nav class="navbar navbar-expand-sm navbar-dark  nav-bottom">
+        <nav class="navbar navbar-expand-sm navbar-dark fixed-bottom nav-bottom">
             <!-- Links -->
             <div class="col-md-8 mx-auto">
                 <div class="row">
@@ -222,12 +222,13 @@
     <script src="./oldVerson/js/rgen.js"></script>
 
     <script>
-        $(function(){
+        $(function () {
             $(window).resize();
         });
-        $(window).resize(function(){
+        $(window).resize(function () {
             $(".containerCards").css({
-                'margin-top': ($(window).height()-85-265-$('.divH').height()-$('.titleDiv').height())/2
+                'margin-top': ($(window).height() - 85 - 265 - $('.divH').height() - $('.titleDiv').height()) /
+                    2
             });
         });
     </script>
