@@ -102,7 +102,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4  bj-gy" id="bg-gy">
+        <div class="col-md-4  bg-gy" id="bg-gy">
           <div class="card">
             <div class="card-body">
               <h4 class="card-title">GOMINE-贵阳分部</h4>
@@ -167,14 +167,18 @@
               </tr>
               <tr>
                 <td>
-                  <div class="input-group mb-3  bg-dark">
-                    <input type="text" class="form-control bottom-input" placeholder="请输入邮箱地址" id="email" name="email">
-                    <div class="input-group-append" id="submit">
-                      <button type="submit" class="btn btn-secondary">
-                        <i class="fa fa-envelope"></i>
-                      </button>
+                  <form action="./oldVerson/form-data/notify-me.php" method="post" id="subscribe" novalidate="novalidate">
+                    <div class="input-group mb-3  bg-dark">
+                      <input type="text" class="form-control bottom-input" placeholder="请输入邮箱地址" id="email" name="email">
+                      <div class="input-group-append">
+                        <button type="button" id="submit" class="btn btn-secondary">
+                          <i class="fa fa-envelope"></i>
+                        </button>
+                      </div>
                     </div>
-                  </div>
+                    <div class="msg-wrp"></div>
+                  </form>
+                </td>
               </tr>
             </table>
           </div>
@@ -195,7 +199,7 @@
   <!-- 表单验证 -->
   <script src="./oldVerson/service/api.php?v=1.0"></script>
   <script src="./oldVerson/minify/rgen_min.js"></script>
-  <script src="./oldVerson/js/rgen.js"></script>
+  <script src="./oldVerson/js/rgen_cn.js"></script>
   <!-- 地图初始化 -->
   <script src="./js/contactUs.js"></script>
 </body>
