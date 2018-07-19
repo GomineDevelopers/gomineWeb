@@ -52,10 +52,12 @@ body {
   cursor: pointer;
 }
 
+.bg-sh,
 .bg-gy:hover {
   cursor: pointer;
 }
 
+.bg-sh-active,
 .bg-bj-active,
 .bg-jh-active,
 .bg-gy-active:hover {
@@ -91,6 +93,17 @@ body {
 
 .bg-gy-active .card {
   background-image: url('../images/location-bg-gy-active.png');
+  background-size: 100% 100%;
+  color: white;
+}
+
+.bg-sh .card {
+  background-image: url('../images/location-bg-sh.png');
+  background-size: 100% 100%;
+}
+
+.bg-sh-active .card {
+  background-image: url('../images/location-bg-sh-active.png');
   background-size: 100% 100%;
   color: white;
 }

@@ -37,6 +37,7 @@ $(document).ready(function () {
       flag.addClass('bg-bj-active');
       $('#bg-jh').removeClass('bg-jh-active');
       $('#bg-gy').removeClass('bg-gy-active');
+      $('#bg-sh').removeClass('bg-sh-active');
     }
   });
   $('#bg-jh').click(function () {
@@ -47,8 +48,9 @@ $(document).ready(function () {
     var flag = $(this);
     if (flag.hasClass('bg-jh-active')) {} else {
       flag.addClass('bg-jh-active');
-      $('#bg-bj').removeClass('bg-bj-active')
-      $('#bg-gy').removeClass('bg-gy-active')
+      $('#bg-bj').removeClass('bg-bj-active');
+      $('#bg-gy').removeClass('bg-gy-active');
+      $('#bg-sh').removeClass('bg-sh-active');
     }
   });
   $('#bg-gy').click(function () {
@@ -59,8 +61,22 @@ $(document).ready(function () {
     var flag = $(this);
     if (flag.hasClass('bg-gy-active')) {} else {
       flag.addClass('bg-gy-active');
-      $('#bg-bj').removeClass('bg-bj-active')
-      $('#bg-jh').removeClass('bg-jh-active')
+      $('#bg-bj').removeClass('bg-bj-active');
+      $('#bg-jh').removeClass('bg-jh-active');
+      $('#bg-sh').removeClass('bg-sh-active');
+    }
+  });
+  $('#bg-sh').click(function () {
+    var pointGy = new BMap.Point(121.435651, 31.190876);
+    var cententGy = "上海市徐汇区凯旋路3001号中南凯旋商务楼605室";
+    var titleGy = "GOMINE-上海";
+    setAddressAndWindow(pointGy, cententGy, titleGy);
+    var flag = $(this);
+    if (flag.hasClass('bg-gy-active')) {} else {
+      flag.addClass('bg-sh-active');
+      $('#bg-bj').removeClass('bg-bj-active');
+      $('#bg-jh').removeClass('bg-jh-active');
+      $('#bg-gy').removeClass('bg-gy-active');
     }
   });
 
